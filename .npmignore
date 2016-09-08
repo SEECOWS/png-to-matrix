@@ -1,0 +1,23 @@
+# Travis CI
+.travis.yml
+
+# Appveyor CI
+appveyor.yml
+
+# Coveralls Code Coverage
+.coveralls.yml
+
+# LICENSE
+LICENSE
+
+# README
+README.md
+
+# Tests
+tests.js
+
+# NYC output
+.nyc_ouput
+
+# Test image
+test_image.png

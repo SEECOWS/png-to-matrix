@@ -1,0 +1,34 @@
+{
+  "name": "png-to-matrix",
+  "version": "1.0.0",
+  "description": "An image to 2D RGBA matrix conversion module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests.js --timeout=10000s",
+    "nyc": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SEECOWS/png-to-matrix.git"
+  },
+  "keywords": [
+    "png",
+    "matrix",
+    "image",
+    "rgba",
+    "conversion"
+  ],
+  "author": "Chris Cates",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SEECOWS/png-to-matrix/issues"
+  },
+  "homepage": "https://github.com/SEECOWS/png-to-matrix#readme",
+  "dependencies": {
+    "get-pixels": "^3.3.0"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.12",
+    "nyc": "^8.1.0"
+  }
+}
