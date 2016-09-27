@@ -3,7 +3,7 @@ const getPixels = require("get-pixels")
 module.exports = (path, callback) => {
 	getPixels(path, (err, pixels) => {
 		if (err) throw err
-		var matrix = {}
+		var matrix = []
 		var count = 0
 		var rgbaIndex = 0
 		var currentObj = {}
