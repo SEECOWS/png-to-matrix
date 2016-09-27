@@ -18,10 +18,10 @@ module.exports = (path, callback) => {
 				currentObj = {}
 				rgbaIndex = 0
 			}
-			if (rgbaIndex == 0) currentObj.r = pixels.data[k]
-			if (rgbaIndex == 1) currentObj.g = pixels.data[k]
-			if (rgbaIndex == 2) currentObj.b = pixels.data[k]
-			if (rgbaIndex == 3) currentObj.a = pixels.data[k]
+			if (rgbaIndex == 0) currentObj.a = pixels.data[k]
+			if (rgbaIndex == 1) currentObj.r = pixels.data[k]
+			if (rgbaIndex == 2) currentObj.g = pixels.data[k]
+			if (rgbaIndex == 3) currentObj.b = pixels.data[k]
 		})
 		callback(matrix)
 	})

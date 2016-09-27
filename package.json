@@ -1,6 +1,6 @@
 {
   "name": "png-to-matrix",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "An image to 2D RGBA matrix conversion module",
   "main": "index.js",
   "scripts": {
