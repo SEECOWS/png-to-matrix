@@ -7,6 +7,7 @@ module.exports = (path, callback) => {
 		var count = 0
 		var rgbaIndex = 0
 		var currentObj = {}
+
 		Object.keys(pixels.data).forEach((k, i) => {
 			if (i > pixels.shape[0] * 4 * (count + 1)) count++
 			if (rgbaIndex < 3) {

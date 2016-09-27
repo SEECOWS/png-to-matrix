@@ -10,7 +10,7 @@ pngToMatrix("path/to/image", (matrix) => {
 	console.log(matrix)
 	/*
 	** Returns:
-	** { 'N Dimensions of X as a numerical key': [ N Dimensions of Y as an array - Each array value has a "r,g,b,a" value. ] }
+	** [ 'N Dimensions of X as a numerical key': [ N Dimensions of Y as an array - Each array value has a "r,g,b,a" value. ] ] }
 	*/
 })
 ```
